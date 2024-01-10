@@ -77,4 +77,3 @@ SELECT product_name, category_name, company_name FROM products p
 INNER JOIN suppliers s ON p.supplier_id=s.supplier_id
 INNER JOIN categories c ON c.category_id=p.category_id
 ORDER BY units_on_order DESC LIMIT 1; 
-
